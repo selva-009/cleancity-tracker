@@ -310,6 +310,7 @@ const API_BASE = (() => {
   const q = new URLSearchParams(location.search).get('api');
   if (q) return q.replace(/\/$/, '');
   if (location.protocol === 'file:') return 'http://localhost:8000';
+  if (location.hostname.endsWith('github.io')) return 'https://cleancity-tracker.onrender.com';
   return ''; // same origin when served by the backend
 })();
 

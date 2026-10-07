@@ -8,6 +8,15 @@ This is a complete, runnable application: a FastAPI backend with a real SQLite d
 
 ---
 
+## Live demo
+
+| What | Link |
+|------|------|
+| **Full app (live, with backend)** | https://cleancity-tracker.onrender.com |
+| Frontend preview (GitHub Pages) | https://selva-009.github.io/cleancity-tracker/ |
+
+Sign in with any account below (password `demo1234` for all).
+
 ## Quick start
 
 **macOS / Linux**
