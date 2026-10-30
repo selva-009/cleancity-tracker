@@ -1,0 +1,4 @@
+# Keep the language bar representative of the actual stack.
+# These projects are single-page frontends sitting on top of a Python backend;
+# without this, GitHub reports the whole repo as HTML.
+*.html linguist-detectable=false
